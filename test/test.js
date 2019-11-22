@@ -27,4 +27,9 @@ run('filename() returns file path of this script', () => {
     eq(path.dirname(f), path.dirname(fromCommonjs.filename));
 });
 
-console.log(failures === 0 ? 'OK' : 'NOT OK');
+if (failures === 0) {
+    console.log('OK');
+} else {
+    console.log('NOT OK');
+    process.exit(111);
+}
