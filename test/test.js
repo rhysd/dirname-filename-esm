@@ -23,8 +23,9 @@ run('dirname() returns directory path of this script', () => {
 
 run('filename() returns file path of this script', () => {
     const f = filename(import.meta);
-    eq(path.dirname(f), fromCommonjs.dirname);
+    eq(f, path.join(fromCommonjs.dirname, 'test.js'));
     eq(path.dirname(f), path.dirname(fromCommonjs.filename));
+    eq(path.basename(f), 'test.js');
 });
 
 if (failures === 0) {
