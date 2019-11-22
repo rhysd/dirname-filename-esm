@@ -1,12 +1,13 @@
 `__dirname` and `__filename` for ES Modules on Node.js
 ======================================================
 [![CI status](https://github.com/rhysd/github-action-benchmark/workflows/CI/badge.svg)](https://github.com/rhysd/dirname-filename-esm/actions?query=workflow%3ACI)
+[![npm](https://badge.fury.io/js/dirname-filename-esm.svg)](https://www.npmjs.com/package/dirname-filename-esm)
 
 Node.js v13.2.0 was released and it ships support for ES Modules. [Official announcement](https://medium.com/@nodejs/announcing-core-node-js-support-for-ecmascript-modules-c5d6dc29b663) explains the overview.
 
 In ES Modules environment, global variables such as `require`, `exports`, `module.exports`, `__filename`, `__dirname` are not available. `require`, `exports`, `module.exports` are no longer necessary since we have ESM, but we still need `__filename` and `__dirname` which can be calculated from `import.meta.url`.
 
-To make migration from commonjs to ES Modules smooth, [dirname-filename-esm](TODO) provides functions to create `__dirname` and `__filename` easily in ES Modules environment.
+To make migration from commonjs to ES Modules smooth, [dirname-filename-esm](https://www.npmjs.com/package/dirname-filename-esm) provides functions to create `__dirname` and `__filename` easily in ES Modules environment.
 
 Usage is very straightforward.
 
