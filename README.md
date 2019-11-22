@@ -21,6 +21,8 @@ const __filename = filename(import.meta);
 - `dirname()` takes `import.meta` object and returns `__dirname` value of the script.
 - `filename()` takes `import.meta` object and returns `__filename` value of the script.
 
+This package has zero dependency.
+
 ### License
 
 [the MIT License](./LICENSE.txt)
