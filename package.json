@@ -1,0 +1,30 @@
+{
+  "name": "dirname-filename-esm",
+  "version": "0.0.0",
+  "type": "module",
+  "description": "Easy __dirname and __filename alternatives for ES Modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhysd/dirname-for-esm.git"
+  },
+  "keywords": [
+    "node",
+    "esm",
+    "__dirname",
+    "__filename"
+  ],
+  "author": "rhysd <lin90162@yahoo.co.jp> (https://rhysd.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rhysd/dirname-for-esm/issues"
+  },
+  "homepage": "https://github.com/rhysd/dirname-for-esm#readme",
+  "files": [
+    "LICENSE.txt",
+    "index.js"
+  ]
+}
