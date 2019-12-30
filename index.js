@@ -6,5 +6,5 @@ export function dirname(importMeta) {
 }
 
 export function filename(importMeta) {
-    return url.parse(importMeta.url).pathname;
+    return url.fileURLToPath(importMeta.url);
 }
