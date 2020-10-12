@@ -1,6 +1,6 @@
 {
   "name": "dirname-filename-esm",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "type": "module",
   "description": "Easy __dirname and __filename alternatives for ES Modules",
   "main": "index.js",
