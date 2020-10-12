@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rhysd/dirname-for-esm.git"
+    "url": "git+https://github.com/rhysd/dirname-filename-esm.git"
   },
   "keywords": [
     "node",
@@ -20,9 +20,9 @@
   "author": "rhysd <lin90162@yahoo.co.jp> (https://rhysd.github.io/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rhysd/dirname-for-esm/issues"
+    "url": "https://github.com/rhysd/dirname-filename-esm/issues"
   },
-  "homepage": "https://github.com/rhysd/dirname-for-esm#readme",
+  "homepage": "https://github.com/rhysd/dirname-filename-esm#readme",
   "files": [
     "LICENSE.txt",
     "index.js"
