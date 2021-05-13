@@ -1,10 +1,10 @@
-import url from 'url';
-import * as path from 'path';
+import { fileURLToPath } from 'url';
+import { dirname as pathDirname } from 'path';
 
 export function dirname(importMeta) {
-    return path.dirname(filename(importMeta));
+    return pathDirname(filename(importMeta));
 }
 
 export function filename(importMeta) {
-    return url.fileURLToPath(importMeta.url);
+    return fileURLToPath(importMeta.url);
 }
