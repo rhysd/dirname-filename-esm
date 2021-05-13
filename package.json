@@ -4,6 +4,7 @@
   "type": "module",
   "description": "Easy __dirname and __filename alternatives for ES Modules",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "node test/test.js"
   },
@@ -25,6 +26,7 @@
   "homepage": "https://github.com/rhysd/dirname-filename-esm#readme",
   "files": [
     "LICENSE.txt",
-    "index.js"
+    "index.js",
+    "index.d.ts"
   ]
 }
