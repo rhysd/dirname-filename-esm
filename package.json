@@ -6,7 +6,9 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "test": "node test/test.js"
+    "test-js": "node ./test/test.js",
+    "test-ts": "tsc --noEmit -p ./test",
+    "test": "npm run test-js && npm run test-ts"
   },
   "repository": {
     "type": "git",
@@ -28,5 +30,9 @@
     "LICENSE.txt",
     "index.js",
     "index.d.ts"
-  ]
+  ],
+  "devDependencies": {
+    "@types/node": "^15.0.3",
+    "typescript": "^4.2.4"
+  }
 }
