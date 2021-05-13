@@ -28,6 +28,8 @@ Two functions are exported.
 
 This package has zero dependency.
 
+This package offers [TypeScript](https://www.typescriptlang.org/) support. Since this package is for ES Modules environment, ensure that `module` option is set to `es2020` or later in your `tsconfig.json`.
+
 ### License
 
 [the MIT License](./LICENSE.txt)
