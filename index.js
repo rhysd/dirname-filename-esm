@@ -6,5 +6,5 @@ export function dirname(importMeta) {
 }
 
 export function filename(importMeta) {
-    return fileURLToPath(importMeta.url);
+    return importMeta.url ? fileURLToPath(importMeta.url) : '';
 }
