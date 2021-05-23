@@ -28,6 +28,11 @@ run('filename() returns file path of this script', () => {
     eq(path.basename(f), 'test.js');
 });
 
+run('filename() returns empty string when import.meta.url does not exist', () => {
+    const f = filename({});
+    eq(f, '');
+});
+
 if (failures === 0) {
     console.log('OK');
 } else {
