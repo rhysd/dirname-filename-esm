@@ -1,3 +1,11 @@
+<a name="v1.1.1"></a>
+# [v1.1.1](https://github.com/rhysd/dirname-filename-esm/releases/tag/v1.1.1) - 23 May 2021
+
+- Fix `import.meta.url` might not exist.
+
+[Changes][v1.1.1]
+
+
 <a name="v1.1.0"></a>
 # [v1.1.0](https://github.com/rhysd/dirname-filename-esm/releases/tag/v1.1.0) - 13 May 2021
 
@@ -31,6 +39,7 @@ First release :tada:
 [Changes][v1.0.0]
 
 
+[v1.1.1]: https://github.com/rhysd/dirname-filename-esm/compare/v1.1.0...v1.1.1
 [v1.1.0]: https://github.com/rhysd/dirname-filename-esm/compare/v1.0.2...v1.1.0
 [v1.0.2]: https://github.com/rhysd/dirname-filename-esm/compare/v1.0.1...v1.0.2
 [v1.0.1]: https://github.com/rhysd/dirname-filename-esm/compare/v1.0.0...v1.0.1
