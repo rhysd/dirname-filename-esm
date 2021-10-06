@@ -3,7 +3,7 @@
 [![CI status](https://github.com/rhysd/github-action-benchmark/workflows/CI/badge.svg)](https://github.com/rhysd/dirname-filename-esm/actions?query=workflow%3ACI)
 [![npm](https://badge.fury.io/js/dirname-filename-esm.svg)](https://www.npmjs.com/package/dirname-filename-esm)
 
-Node.js v13.2.0 was released which shipped support for ES Modules. [Official announcement](https://medium.com/@nodejs/announcing-core-node-js-support-for-ecmascript-modules-c5d6dc29b663)
+Node.js v13.2.0 was released with support for ES Modules. [Official announcement](https://medium.com/@nodejs/announcing-core-node-js-support-for-ecmascript-modules-c5d6dc29b663)
 explains the overview.
 
 In ES Modules environment, global variables such as `require`, `exports`, `module.exports`, `__filename`,
@@ -12,6 +12,14 @@ of ESM, but we still need `__filename` and `__dirname` which can be calculated f
 
 To make migration from commonjs to ES Modules smooth, [dirname-filename-esm](https://www.npmjs.com/package/dirname-filename-esm)
 provides functions to create `__dirname` and `__filename` variables easily in ES Modules environment.
+
+## Installation
+
+```sh
+npm install --save dirname-filename-esm
+```
+
+## Usage
 
 Usage is very straightforward.
 
@@ -35,6 +43,6 @@ This package has zero dependency.
 This package offers [TypeScript](https://www.typescriptlang.org/) support. Since this package is for
 ES Modules environment, ensure that `module` option is set to `es2020` or later in your `tsconfig.json`.
 
-### License
+## License
 
 [the MIT License](./LICENSE.txt)
