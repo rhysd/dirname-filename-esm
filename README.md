@@ -1,6 +1,6 @@
 `__dirname` and `__filename` for ES Modules on Node.js
 ======================================================
-[![CI status](https://github.com/rhysd/github-action-benchmark/workflows/CI/badge.svg)](https://github.com/rhysd/dirname-filename-esm/actions?query=workflow%3ACI)
+[![CI](https://github.com/rhysd/dirname-filename-esm/actions/workflows/ci.yml/badge.svg)](https://github.com/rhysd/dirname-filename-esm/actions/workflows/ci.yml)
 [![npm](https://badge.fury.io/js/dirname-filename-esm.svg)](https://www.npmjs.com/package/dirname-filename-esm)
 
 Node.js v13.2.0 was released with support for ES Modules. [Official announcement](https://medium.com/@nodejs/announcing-core-node-js-support-for-ecmascript-modules-c5d6dc29b663)
