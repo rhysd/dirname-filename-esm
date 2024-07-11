@@ -2,7 +2,8 @@ import { fileURLToPath } from 'url';
 import { dirname as pathDirname } from 'path';
 
 export function dirname(importMeta) {
-    return pathDirname(filename(importMeta));
+    const file = filename(importMeta);
+    return file !== '' ? pathDirname(file) : '';
 }
 
 export function filename(importMeta) {
